@@ -5,8 +5,12 @@
     .banner-info
       Your Life Work, Organized, Always
     .banner-enter
-      .std-btn
-        Enter
+      - if user_signed_in?
+        .std-btn
+          = link_to "Show All Docs", docs_path
+      - else 
+        .std-btn
+          = link_to "Join Now", new_user_registration_path
   .company-info-area
     .company-title
       Organize

@@ -13,7 +13,9 @@
         %nav
           -if user_signed_in?
             .space-between.nav-panel-authorized.font-16
-              .std-btn
+              .std-btn.margin-right-16
+                = link_to "Show All Docs", docs_path
+              .std-btn.margin-right-16
                 = link_to "Create Doc", new_doc_path
               .std-btn
                 = link_to "Sign Out", destroy_user_session_path, method: :delete
@@ -21,8 +23,8 @@
           -else
             .std-btn
               = link_to "Log In", new_user_session_path
-
-    %p.notice= notice
-    %p.alert= alert
+    .center
+      %p.notice= notice
+      %p.alert= alert
     .main-content
       = yield

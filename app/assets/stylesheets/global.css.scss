@@ -760,6 +760,7 @@ a{
   display: flex;
   justify-content: space-between;
 }
+
 .inline-block{
     display: inline-block;
 }
@@ -1211,5 +1212,5 @@ span.grippy::after {
 }
 
 .nav-panel-authorized {
-    width: 250px;
+    width: auto;
 }

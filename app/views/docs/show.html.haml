@@ -1,6 +1,11 @@
-%h1= @doc.title
-%p= @doc.content
-
-= link_to "All Docs", docs_path
-= link_to "Fix Doc", edit_doc_path(@doc)
-= link_to "Trash It", docs_path(@doc), method: :delete, data: {confirm: "Are you sure ?"}
+.main-content
+  .title-wrapper.border-bottom.margin-bottom-24.center
+    %h1= @doc.title
+  .content-wrapper
+    %p= simple_format(@doc.content)
+  
+  .flex.center
+    .std-btn.margin-right-16
+      = link_to "Fix Doc", edit_doc_path(@doc)
+    .std-btn
+      = link_to "Trash It", docs_path(@doc), method: :delete, data: {confirm: "Are you sure ?"}
