@@ -1,7 +1,15 @@
-.std-btn{style: 'width: 80px;'}
-  = link_to "New Doc", new_doc_path
-- @docs.each do |doc|
-  .doc-item.border-bottom
-    %h2= link_to doc.title, doc
-    %p= time_ago_in_words(doc.created_at)
-    %p= truncate(doc.content, length:50)
+.doc-container
+  -unless @docs.blank?
+    - @docs.each do |doc|
+      %a{href: 'url_for |doc|'}
+        .doc-item.border-bottom
+          %h2= link_to doc.title, doc
+          %p= time_ago_in_words(doc.created_at)
+          %p= truncate(doc.content, length:50)
+  - else
+    .no-doc
+      %h2 No Doc !
+      %p Start Creating Documents and Organizing your life !
+      .std-btn
+        = link_to "Create Doc", new_doc_path, class: "btn-std" 
+  
