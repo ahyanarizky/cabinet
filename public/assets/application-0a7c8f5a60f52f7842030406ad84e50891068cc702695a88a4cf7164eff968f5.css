@@ -1,0 +1,2129 @@
+/*
+
+ */
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+/* line 12, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 25, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 33, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 47, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+/* line 60, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 70, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 79, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 90, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 103, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 113, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 123, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 132, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 142, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 153, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 161, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 170, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 179, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 187, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 191, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 202, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 211, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 220, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 228, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 240, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 256, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 266, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 277, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 288, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 300, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 311, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 322, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 336, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 345, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 354, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 364, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 374, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+/* line 383, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 393, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+/* line 406, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+details,
+menu {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 415, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+summary {
+  display: list-item;
+}
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 426, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+/* line 434, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+template {
+  display: none;
+}
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+/* line 445, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/normalize.css.scss */
+[hidden] {
+  display: none;
+}
+
+@color-navy : #00303c;
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../fonts/fontawesome.ttf");
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-light.ttf");
+  font-weight: 300;
+}
+/* line 29, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-weight: 400;
+}
+
+/* line 36, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+body, button {
+  letter-spacing: 0.3px !important;
+}
+
+/* line 40, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+#root {
+  width: 100vw;
+  height: 100vh;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+/* line 47, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+input, textarea {
+  resize: none;
+}
+/* line 49, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+input.box, textarea.box {
+  outline: none;
+  border: none;
+  box-shadow: 0 0 0 1px #ccc, 0 0 0 1px #ccc;
+  width: 100%;
+}
+
+/* line 57, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.required:after {
+  content: " *";
+  color: red;
+}
+
+/* line 62, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.textarea-description {
+  display: block;
+  padding-top: 3px;
+  height: 24px;
+  max-height: 35px;
+}
+
+/* line 69, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.inline-edit {
+  padding-left: 10px;
+  padding-right: 20px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px #ccc, 0 0 0 1px #ccc;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  min-height: 24px;
+  align-items: center;
+  word-break: initial;
+}
+/* line 84, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.inline-edit.md {
+  height: 30px;
+}
+/* line 88, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.inline-edit.lg {
+  height: 34px;
+}
+/* line 92, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.inline-edit.description {
+  display: block;
+  overflow: auto;
+  max-height: 35px;
+  padding-top: 3px;
+}
+/* line 99, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.inline-edit.big {
+  display: block;
+  overflow: auto;
+  height: 58px;
+  align-items: flex-start;
+  padding-top: 4px;
+}
+/* line 107, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.inline-edit.extra-big {
+  display: block;
+  overflow: auto;
+  height: 105px;
+  align-items: flex-start;
+  padding-top: 4px;
+}
+/* line 115, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.inline-edit:empty:before {
+  content: attr(placeholder);
+  color: #a7a9ac;
+}
+/* line 120, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.inline-edit:after {
+  content: '';
+  top: 5px;
+  right: 10px;
+  position: absolute;
+  width: 5px;
+}
+/* line 128, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.inline-edit:hover {
+  text-align: left;
+}
+/* line 131, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.inline-edit:hover:after {
+  content: '\f040';
+  font-family: FontAwesome;
+}
+
+/* line 137, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.inline-edit-left {
+  padding: 4px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px #ccc, 0 0 0 1px #ccc;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  min-height: 24px;
+  word-break: initial;
+}
+/* line 150, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.inline-edit-left:empty:before {
+  content: attr(placeholder);
+  color: a7a9ac;
+}
+/* line 155, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.inline-edit-left:after {
+  content: '';
+  top: 5px;
+  left: 5px;
+  position: absolute;
+  width: 5px;
+}
+/* line 164, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.inline-edit-left:hover:after {
+  content: '\f040';
+  font-family: FontAwesome;
+}
+
+/* line 171, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* line 174, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.cursor-zoom-in {
+  cursor: zoom-in;
+}
+
+/* line 179, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.icon-pencil:after {
+  content: '\F040';
+  font-family: FontAwesome;
+  top: 0;
+  right: -2em;
+  position: absolute;
+}
+
+/* line 188, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.left {
+  text-align: left;
+}
+
+/* line 191, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.right {
+  text-align: right;
+}
+
+/* line 195, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.light {
+  font-weight: 300;
+}
+
+/* line 198, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.bold {
+  font-weight: 500;
+}
+
+/* line 201, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.extra-bold {
+  font-weight: 600;
+}
+
+/* line 205, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
+
+/* line 208, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-4 {
+  margin-bottom: 4px;
+}
+
+/* line 211, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-5 {
+  margin-bottom: 5px;
+}
+
+/* line 214, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-8 {
+  margin-bottom: 8px;
+}
+
+/* line 217, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-9 {
+  margin-bottom: 9px;
+}
+
+/* line 220, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+/* line 223, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-12 {
+  margin-bottom: 12px;
+}
+
+/* line 226, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-13 {
+  margin-bottom: 13px;
+}
+
+/* line 229, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-15 {
+  margin-bottom: 15px;
+}
+
+/* line 232, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-16 {
+  margin-bottom: 16px;
+}
+
+/* line 235, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+/* line 238, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-24 {
+  margin-bottom: 24px;
+}
+
+/* line 241, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+/* line 244, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-32 {
+  margin-bottom: 32px;
+}
+
+/* line 247, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-35 {
+  margin-bottom: 35px;
+}
+
+/* line 250, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+
+/* line 254, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-55 {
+  margin-bottom: 55px;
+}
+
+/* line 257, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-bottom-56 {
+  margin-bottom: 56px;
+}
+
+/* line 261, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-top-4 {
+  margin-top: 4px;
+}
+
+/* line 264, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-top-5 {
+  margin-top: 5px;
+}
+
+/* line 267, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-top-8 {
+  margin-top: 8px;
+}
+
+/* line 270, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-top-9 {
+  margin-top: 9px;
+}
+
+/* line 273, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+/* line 276, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-top-15 {
+  margin-top: 15px;
+}
+
+/* line 279, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-top-16 {
+  margin-top: 16px;
+}
+
+/* line 282, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-top-17 {
+  margin-top: 17px;
+}
+
+/* line 285, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+/* line 288, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-top-22 {
+  margin-top: 22px;
+}
+
+/* line 291, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-top-24 {
+  margin-top: 24px;
+}
+
+/* line 294, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-top-25 {
+  margin-top: 25px;
+}
+
+/* line 297, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+/* line 300, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-top-32 {
+  margin-top: 32px;
+}
+
+/* line 303, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-top-35 {
+  margin-top: 35px;
+}
+
+/* line 306, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-top-40 {
+  margin-top: 40px;
+}
+
+/* line 309, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-top-48 {
+  margin-top: 48px;
+}
+
+/* line 313, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-left-2 {
+  margin-left: 2px;
+}
+
+/* line 316, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-left-5 {
+  margin-left: 5px;
+}
+
+/* line 319, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-left-8 {
+  margin-left: 8px;
+}
+
+/* line 322, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-left-10 {
+  margin-left: 10px;
+}
+
+/* line 325, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-left-15 {
+  margin-left: 15px;
+}
+
+/* line 328, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-left-16 {
+  margin-left: 16px;
+}
+
+/* line 331, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-left-20 {
+  margin-left: 20px;
+}
+
+/* line 334, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-left-24 {
+  margin-left: 24px;
+}
+
+/* line 337, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-left-30 {
+  margin-left: 30px;
+}
+
+/* line 340, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-left-40 {
+  margin-left: 40px;
+}
+
+/* line 343, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-left-50 {
+  margin-left: 50px;
+}
+
+/* line 346, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-left-70 {
+  margin-left: 70px;
+}
+
+/* line 349, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-left-80 {
+  margin-left: 80px;
+}
+
+/* line 352, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-left-auto {
+  margin-left: auto;
+}
+
+/* line 356, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-right-4 {
+  margin-right: 4px;
+}
+
+/* line 359, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-right-8 {
+  margin-right: 8px;
+}
+
+/* line 362, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-right-10 {
+  margin-right: 10px;
+}
+
+/* line 365, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-right-16 {
+  margin-right: 16px;
+}
+
+/* line 368, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-right-20 {
+  margin-right: 20px;
+}
+
+/* line 371, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-right-24 {
+  margin-right: 24px;
+}
+
+/* line 374, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-right-30 {
+  margin-right: 30px;
+}
+
+/* line 377, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-right-50 {
+  margin-right: 50px;
+}
+
+/* line 380, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-right-80 {
+  margin-right: 80px;
+}
+
+/* line 384, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-8-0 {
+  margin: 8px 0;
+}
+
+/* line 388, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-10-0 {
+  margin: 10px 0;
+}
+
+/* line 392, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-20 {
+  margin: 20px;
+}
+
+/* line 396, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-auto-20 {
+  margin: auto 20px;
+}
+
+/* line 400, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.margin-20-auto {
+  margin: 20px auto;
+}
+
+/* line 404, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-top-0 {
+  padding-top: 0 !important;
+}
+
+/* line 408, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-top-2 {
+  padding-top: 2px !important;
+}
+
+/* line 412, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-top-8 {
+  padding-top: 8px !important;
+}
+
+/* line 416, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-top-10 {
+  padding-top: 10px !important;
+}
+
+/* line 420, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-top-16 {
+  padding-top: 16px !important;
+}
+
+/* line 424, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-top-20 {
+  padding-top: 20px !important;
+}
+
+/* line 428, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-top-24 {
+  padding-top: 24px !important;
+}
+
+/* line 431, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-top-32 {
+  padding-top: 32px !important;
+}
+
+/* line 435, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-8 {
+  padding: 8px;
+}
+
+/* line 438, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-15 {
+  padding: 15px;
+}
+
+/* line 441, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-16 {
+  padding: 16px;
+}
+
+/* line 444, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-20 {
+  padding: 20px;
+}
+
+/* line 447, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-24 {
+  padding: 24px;
+}
+
+/* line 450, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-30 {
+  padding: 30px;
+}
+
+/* line 454, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-5-0 {
+  padding: 5px 0;
+}
+
+/* line 457, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-7-0 {
+  padding: 7px 0;
+}
+
+/* line 460, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-8-0 {
+  padding: 8px 0;
+}
+
+/* line 463, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-10-0 {
+  padding: 10px 0;
+}
+
+/* line 466, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-15-0 {
+  padding: 15px 0;
+}
+
+/* line 469, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-20-0 {
+  padding: 20px 0;
+}
+
+/* line 472, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-30-0 {
+  padding: 30px 0;
+}
+
+/* line 476, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-0-20 {
+  padding: 0 20px;
+}
+
+/* line 479, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-0-40 {
+  padding: 0 40px;
+}
+
+/* line 482, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-bottom-4 {
+  padding-bottom: 4px;
+}
+
+/* line 485, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-0-15 {
+  padding: 0 15px 15px 15px;
+}
+
+/* line 488, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-bottom-2 {
+  padding-bottom: 2px;
+}
+
+/* line 491, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-bottom-5 {
+  padding-bottom: 5px;
+}
+
+/* line 494, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-bottom-8 {
+  padding-bottom: 8px;
+}
+
+/* line 497, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-bottom-10 {
+  padding-bottom: 10px;
+}
+
+/* line 500, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-bottom-16 {
+  padding-bottom: 16px;
+}
+
+/* line 503, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-bottom-20 {
+  padding-bottom: 20px;
+}
+
+/* line 506, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-bottom-24 {
+  padding-bottom: 24px;
+}
+
+/* line 509, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-bottom-30 {
+  padding-bottom: 30px;
+}
+
+/* line 512, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-bottom-40 {
+  padding-bottom: 40px;
+}
+
+/* line 515, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-bottom-50 {
+  padding-bottom: 50px;
+}
+
+/* line 519, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-right-15 {
+  padding-right: 15px;
+}
+
+/* line 522, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-right-16 {
+  padding-right: 16px;
+}
+
+/* line 525, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-right-20 {
+  padding-right: 20px;
+}
+
+/* line 528, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-right-24 {
+  padding-right: 24px;
+}
+
+/* line 531, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-right-30 {
+  padding-right: 30px;
+}
+
+/* line 534, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-right-32 {
+  padding-right: 32px;
+}
+
+/* line 537, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-right-45 {
+  padding-right: 45px;
+}
+
+/* line 540, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-right-56 {
+  padding-right: 56px;
+}
+
+/* line 543, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-right-75 {
+  padding-right: 75px;
+}
+
+/* line 546, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-right-80 {
+  padding-right: 80px;
+}
+
+/* line 550, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-left-15 {
+  padding-left: 15px;
+}
+
+/* line 553, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-left-16 {
+  padding-left: 16px;
+}
+
+/* line 556, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-left-24 {
+  padding-left: 24px;
+}
+
+/* line 559, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-left-30 {
+  padding-left: 30px;
+}
+
+/* line 562, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-left-45 {
+  padding-left: 45px;
+}
+
+/* line 565, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-left-56 {
+  padding-left: 56px;
+}
+
+/* line 568, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-left-75 {
+  padding-left: 75px;
+}
+
+/* line 571, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.padding-left-80 {
+  padding-left: 80px;
+}
+
+/* line 575, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.font-9 {
+  font-size: 9px;
+}
+
+/* line 578, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.font-10 {
+  font-size: 10px;
+}
+
+/* line 581, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.font-11 {
+  font-size: 11px;
+}
+
+/* line 584, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.font-12 {
+  font-size: 12px;
+}
+
+/* line 587, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.font-13 {
+  font-size: 13px;
+}
+
+/* line 590, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.font-14 {
+  font-size: 14px;
+}
+
+/* line 593, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.font-15 {
+  font-size: 15px;
+}
+
+/* line 596, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.font-16 {
+  font-size: 16px;
+}
+
+/* line 599, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.font-18 {
+  font-size: 18px;
+}
+
+/* line 602, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.font-21 {
+  font-size: 21px;
+}
+
+/* line 605, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.font-25 {
+  font-size: 25px;
+}
+
+/* line 609, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.line-height-1 {
+  line-height: 1;
+}
+
+/* line 613, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.border-top {
+  border-top: 1px solid #e7e7e8;
+}
+
+/* line 617, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.border-bottom {
+  border-bottom: 1px solid #e7e7e8;
+}
+
+/* line 621, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.border-right {
+  border-right: 1px solid #e7e7e8;
+}
+
+/* line 625, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.border-left {
+  border-left: 1px solid #e7e7e8;
+}
+
+/* line 629, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.color-black {
+  color: #000;
+}
+
+/* line 630, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.color-black-90 {
+  color: #414042;
+}
+
+/* line 631, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.color-black-80 {
+  color: #58595b;
+}
+
+/* line 632, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.color-black-70 {
+  color: #6d6e71;
+}
+
+/* line 633, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.color-black-60 {
+  color: #808285;
+}
+
+/* line 634, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.color-black-40 {
+  color: #a7a9ac;
+}
+
+/* line 635, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.color-black-30 {
+  color: #bebec0;
+}
+
+/* line 636, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.color-black-20 {
+  color: #d1d3d4;
+}
+
+/* line 638, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.color-link {
+  color: #009bde;
+  cursor: pointer;
+}
+
+/* line 643, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.color-blue {
+  color: #009bde;
+}
+
+/* line 646, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.color-red {
+  color: #d42814;
+}
+
+/* line 649, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.color-green {
+  color: #a3cf5f;
+}
+
+/* line 654, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.bg-black-5 {
+  background-color: #fafafb;
+}
+
+/* line 655, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.bg-black-10 {
+  background-color: #e6e7e8;
+}
+
+/* line 656, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.bg-black-20 {
+  background-color: #d1d3d4;
+}
+
+/* line 658, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.bg-green-10 {
+  background-color: #ddebbe;
+}
+
+/* line 659, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.bg-green-20 {
+  background-color: #cbe29f;
+}
+
+/* line 660, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.bg-green-30 {
+  background-color: #a3cf5f;
+}
+
+/* line 662, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.bg-blue-10 {
+  background-color: #c4e6f8;
+}
+
+/* line 663, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.bg-blue-20 {
+  background-color: #a6dcf4;
+}
+
+/* line 664, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.bg-blue-30 {
+  background-color: #57c1e8;
+}
+
+/* line 666, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.action-link {
+  cursor: pointer;
+}
+/* line 668, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.action-link:hover {
+  color: #009bde;
+}
+
+/* line 673, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.width-100 {
+  width: 100%;
+}
+
+/* line 676, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.width-75 {
+  width: 75%;
+}
+
+/* line 679, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.width-60 {
+  width: 60%;
+}
+
+/* line 682, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.width-50 {
+  width: 50%;
+}
+
+/* line 685, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.width-40 {
+  width: 40%;
+}
+
+/* line 688, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.width-30 {
+  width: 30%;
+}
+
+/* line 691, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.width-25 {
+  width: 25%;
+}
+
+/* line 694, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.width-20 {
+  width: 20%;
+}
+
+/* line 697, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.width-13 {
+  width: 13%;
+}
+
+/* line 700, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.height-100 {
+  height: 100%;
+}
+
+/* line 704, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.min-width-80 {
+  min-width: 80px;
+}
+
+/* line 707, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.min-width-115 {
+  min-width: 115px;
+}
+
+/* line 710, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.min-width-30 {
+  min-width: 30%;
+}
+
+/* line 714, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.mainPage {
+  display: flex;
+  height: 100vh;
+}
+
+/* line 719, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+a {
+  color: #009bde;
+  text-decoration: none;
+}
+/* line 723, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+a :hover, a :focus {
+  color: #009bde;
+  text-decoration: none;
+}
+
+/* line 729, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.content {
+  flex-grow: 1;
+  max-height: 100vh;
+  overflow: auto;
+}
+
+/* line 735, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.mainContent {
+  min-height: calc(~'100vh - 91px');
+  min-width: 700px;
+  color: #414042;
+  font-size: 12px;
+}
+
+/* line 743, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.relative {
+  position: relative;
+}
+
+/* line 746, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.absolute {
+  position: absolute;
+}
+
+/* line 750, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.display-none {
+  display: none !important;
+}
+
+/* line 754, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 758, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 762, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 766, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.flex-grow-1 {
+  width: 1px;
+  flex-grow: 1;
+}
+
+/* line 770, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+/* line 775, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* line 782, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 786, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.inline-block {
+  display: inline-block;
+}
+
+/* line 789, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.inline-flex {
+  display: inline-flex !important;
+}
+
+/* line 793, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.overflow {
+  overflow: auto;
+}
+
+/* line 797, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 804, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line :global .Select-control {
+  height: 25px;
+}
+/* line 807, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line :global .Select-placeholder {
+  line-height: 25px;
+}
+/* line 810, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line :global .Select-value {
+  line-height: 25px !important;
+  max-width: calc(~"100% - 46px") !important;
+  margin-bottom: 5px;
+}
+/* line 815, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line :global .Select-value-label {
+  line-height: 25px;
+}
+/* line 818, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line :global .Select-input {
+  height: 25px;
+}
+/* line 821, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line :global .Select-multi-value-wrapper {
+  display: block !important;
+}
+/* line 824, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line.is-open {
+  z-index: 999 !important;
+}
+
+/* line 829, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line-lg {
+  z-index: 3;
+}
+/* line 831, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line-lg :global .Select-control {
+  height: 30px;
+}
+/* line 834, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line-lg :global .Select-placeholder {
+  line-height: 30px;
+}
+/* line 837, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line-lg :global .Select-value {
+  line-height: 30px !important;
+  max-width: calc(~"100% - 46px") !important;
+}
+/* line 841, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line-lg :global .Select-value-label {
+  line-height: 30px;
+}
+/* line 844, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line-lg :global .Select-input {
+  height: 30px;
+}
+/* line 847, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line-lg :global .Select-multi-value-wrapper {
+  display: block !important;
+}
+/* line 851, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line-lg.is-open {
+  z-index: 4;
+}
+
+/* line 856, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line-z-index {
+  z-index: 3;
+}
+/* line 859, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line-z-index :global .Select-value {
+  max-width: calc(~"100% - 46px") !important;
+}
+/* line 863, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line-z-index :global .Select-multi-value-wrapper {
+  display: block !important;
+}
+/* line 867, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.select2-line-z-index.is-open {
+  z-index: 999 !important;
+}
+
+/* line 873, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.react-bs-table input[type=checkbox][disabled] {
+  display: none;
+}
+
+/* line 877, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.react-bs-table-sizePerPage-dropdown {
+  display: none !important;
+}
+
+/* line 880, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.pagination {
+  margin-bottom: 15px !important;
+}
+
+/* line 883, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.pagination-center {
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 889, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.business-overview {
+  padding: 20px;
+  background-color: #fafafb;
+  border-bottom: 1px solid #e7e7e8;
+  font-size: 21px;
+  color: #414042;
+  font-weight: 500;
+}
+
+/* line 898, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.contact-head {
+  padding: 20px;
+  font-size: 21px;
+  color: #414042;
+  font-weight: 500;
+}
+
+/* line 905, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.hr {
+  border-top: 1px solid #d1d3d4;
+  flex-grow: 1;
+}
+
+/* line 910, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.loading-table {
+  height: 200px;
+  position: relative;
+}
+
+/* line 915, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.tab-item-container {
+  width: calc(100% - 5px);
+}
+
+/* line 919, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.no-image-container {
+  width: 150px;
+  height: 150px;
+  background-color: #e7e9ea;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+
+/* line 927, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.word-break {
+  word-break: break-word;
+}
+
+/* line 931, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  margin: 0;
+}
+
+/* line 935, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+input[type=search] {
+  border: 1px solid #d1d3d4;
+  border-radius: 3px 0 0 3px;
+}
+
+/* line 941, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+input.google, textarea.google {
+  width: 300px;
+  background-color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* line 950, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+input.google:focus, textarea.google:focus {
+  outline: none;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+/* line 957, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+textarea {
+  border-color: #d1d3d4;
+  resize: vertical;
+}
+
+/* line 962, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+input.google {
+  height: 35px;
+}
+
+/* line 965, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+textarea.google {
+  height: 80px;
+  max-height: 120px;
+  max-width: 100%;
+}
+
+/* line 971, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+span.grippy {
+  width: 20px;
+  position: absolute;
+  left: -20px;
+  line-height: 5px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #ccc;
+  text-shadow: 1px 0 1px #ccc;
+}
+
+/* line 981, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+span.grippy::after {
+  content: '.. .. .. .. .. .. ..';
+}
+
+/* line 985, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.react-grid-layout {
+  z-index: 4;
+}
+
+/* line 988, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.react-grid-item {
+  cursor: pointer;
+}
+/* line 991, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.react-grid-item:hover .grippy {
+  color: #009bde;
+  text-shadow: 1px 0 1px #009bde;
+}
+
+/* line 997, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.feedback-attachment-container {
+  background-color: #fafafb;
+  border: 1px dashed #808285;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+/* line 1005, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.feedback-attachment-container:hover {
+  border: 1px dashed #57c1e8;
+}
+/* line 1009, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.feedback-attachment-container.active {
+  border: 2px dashed #57c1e8;
+}
+
+/* line 1013, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.feedback-uploaded-attachment {
+  position: relative;
+  display: flex;
+  font-size: 13px;
+  padding: 16px;
+  background-color: #fafafb;
+}
+/* line 1020, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.feedback-uploaded-attachment:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #57c1e8;
+  height: 100%;
+  width: 4px;
+}
+
+/* line 1031, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.attachment-container {
+  transform: rotateZ(45deg);
+  top: 1px;
+  width: 14px;
+  left: -15px;
+}
+
+/* line 1038, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.attachment-details-border {
+  border: 1px solid #009bde;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+/* line 1045, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.offline-bar {
+  background-color: #f38b00;
+  color: #FFF;
+  padding: 15px 20px;
+  font-size: 14px;
+}
+
+/* line 1051, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.error-sync-bar {
+  background-color: #d42814;
+  color: #FFF;
+  padding: 15px 20px;
+  font-size: 14px;
+}
+
+/* line 1058, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.close-button {
+  content: "&times";
+  position: absolute;
+  font-size: 18px;
+  top: -5px;
+  right: 5px;
+  transition: transform .3s ease-in-out;
+  cursor: pointer;
+}
+/* line 1067, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.close-button:hover {
+  color: #cc003d;
+  transform: rotate(90deg);
+}
+
+/* line 1073, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.close-button-snackbar {
+  content: "&times";
+  position: absolute;
+  font-size: 16px;
+  top: -10px;
+  right: 10px;
+  transition: transform .3s ease-in-out;
+  cursor: pointer;
+}
+/* line 1082, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.close-button-snackbar:hover {
+  color: #cc003d;
+}
+
+/* line 1087, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.snackbar-message {
+  max-width: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 1093, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.snackbar-view {
+  margin-left: 20px;
+}
+
+/* line 1097, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.react-tooltip {
+  max-width: 90vw;
+  font-size: 12px !important;
+  background-color: #00303c !important;
+  border-color: #00303c !important;
+  opacity: 1 !important;
+}
+/* line 1104, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.react-tooltip.nowrap {
+  white-space: nowrap;
+}
+/* line 1109, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.react-tooltip.place-top:after {
+  border-top-color: #00303c !important;
+}
+/* line 1114, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.react-tooltip.place-bottom:after {
+  border-bottom-color: #00303c !important;
+}
+
+/* line 1120, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.notification-bar {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 220px;
+  z-index: 9;
+}
+
+/* line 1128, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.disabled {
+  pointer-events: none;
+  background-color: #f9f9f9;
+}
+
+/* line 1134, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.error-select2 .Select-control {
+  border-color: #d42814;
+}
+
+/* line 1138, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.error-rie {
+  box-shadow: 0 0 0 1px #d42814, 0 0 0 1px #d42814;
+}
+
+/* line 1141, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.fixed {
+  position: fixed;
+}
+
+/* line 1145, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.chip {
+  position: relative;
+  background-color: #fafafb;
+  border: 1px solid #bebec0;
+  border-radius: 16px;
+  padding: 2px 4px 2px 8px;
+  display: inline-flex;
+  margin-left: 4px;
+  margin-bottom: 4px;
+  align-items: center;
+  font-size: 13px;
+}
+/* line 1157, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.chip .chip-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  height: 14px;
+  width: 14px;
+  background-color: #808285;
+  border-radius: 50%;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+/* line 1170, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.chip .chip-close:hover {
+  background-color: #d42814;
+}
+
+/* line 1177, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.grey-box-with-blue {
+  position: relative;
+  display: flex;
+  font-size: 13px;
+  padding: 16px;
+  background-color: #fafafb;
+}
+/* line 1184, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+.grey-box-with-blue:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #009bde;
+  height: 100%;
+  width: 4px;
+}
+
+/* line 1195, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+/* line 1200, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+/* line 1203, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+::-webkit-scrollbar-track:hover {
+  background-color: #ccc;
+}
+
+/* line 1208, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #dcf1f9;
+}
+/* line 1212, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/global.css.scss */
+::-webkit-scrollbar-thumb:hover {
+  background: #50c0e9;
+}
+
+/* line 5, /Users/ahyanarizky/Documents/github/cabinet/app/assets/stylesheets/docs.css.scss */
+.nav-panel-authorized {
+  width: 175px;
+}

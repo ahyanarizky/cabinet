@@ -1,3 +1,46 @@
 // Place all the styles related to the Docs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.main-content {
+    padding-top: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header-inner {
+    height: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 25px;
+}
+
+.doc-item {
+    padding-left: 18px;
+    margin-bottom: 40px;
+    padding-bottom: 16px;
+}
+
+.welcome-page {
+    text-align: center;
+}
+
+.banner-title {
+    height: 70px;
+    font-size: 50px;
+    color: #009bde;
+}
+
+.banner-enter {
+    margin-top: 36px;
+    margin-bottom: 108px;
+    padding: 0 475px;
+}
+
+.company-title {
+    margin-bottom: 16px;
+}
+
+.company-desc {
+    
+}
+
